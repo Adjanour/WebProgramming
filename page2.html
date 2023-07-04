@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+     
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Your address</legend>
+        <table>
+           <tbody>
+            <tr>
+                <td style="width:130PX ;"> <label for="">First Name:</label></td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td> <label for="">Last Name:</label></td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Street Name:</label></td>
+            <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td> <label for="">City Name:</label></td>
+            <td><input type="text"></td>
+            </tr>
+        </tbody>
+        
+        </table>
+    
+    </fieldset>
+    <fieldset>
+        <legend>Additional details</legend>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td style="width: 130px;"><label for="">Biography:</label></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td style="width: 130px;"><label for="">Image:</label></td>
+                    <td> <input type="file" name="" id=""><br></td>
+                </tr>
+                <tr>
+                    <td style="width: 130px;"><label for="">Age group:</label></td>
+                    <td><select name="" id="">
+                        <option value="">0 to 9 years</option>
+                        <option value="">10 to 19 years</option>
+                        <option value="">20 to 60 years</option>
+                        <option value="">61 to 80 years</option>
+                        <option value="">81 to 100 years</option>
+                    </select></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </fieldset>
+<fieldset>
+    <legend>Interests</legend>
+    <table>
+        <tbody>
+            <tr>
+            <td style="width: 130px;;"><label for="">Hobbies</label></td>
+            <td><select name="" multiple id="">
+                <option value="">Reading</option>
+                <option value="">Writing</option>
+                <option value="">Coding</option>
+                <option value="">Singing</option></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Favourite car?</label>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Volvo</option>
+                        <option value="">Toyota</option>
+                    </select> 
+                  </td>
+            </tr>
+            <tr>
+              
+                <td>
+
+                <input list="cars">
+                </td>
+                <td>
+                    <datalist id="cars">
+                        <option value="Volvo"></option>
+                        <option value="Toyota"></option>
+                        <option value="BMW"></option>
+                        <option value="Mercedes"></option>
+                    </datalist> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Favourite public transport?</label>
+                </td>
+                <td>
+                    <input type="range" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">List</label></td>
+                <td>
+                    <input name="" list="Cars">
+                    <datalist id="Cars">
+                        <option value="Volvo"></option>
+                        <option value="Toyota"></option>
+                        <option value="BMW"></option>
+                        <option value="Mercedes"></option>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</fieldset>
+</form>
+</body>
+</html>
