@@ -9,73 +9,56 @@
                 background-color: rgb(255, 255, 255);
                 color: rgb(0, 0, 0);
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 1em;
                 margin: auto;
                 padding: 10px;
+                border-radius: 10%;
+                padding-bottom: 40px;
         }
         body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: skyblue;
   margin: 50px;
+  background-image: url(Image/pexels-francesco-ungaro-4322027.jpg);
+}
+.input{
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+fieldset{
+    margin: 20px;
 }
 
     </style>
 </head>
 <body>
     <div>
-    <h1>Bootcamp Registration Form</h1>
+    <h1 style="text-align: center;">Bootcamp Registration Form</h1>
     <p>Complete this form to express your interest in the upcoming web development bootcamp</p>
-    <fieldset style="size:100px;">
+    <fieldset>
         <legend>Contact Details</legend>
-        <table>
-            <tbody>
-                <tr>
-                    <td style="width: 10px;"><label for="">Name</label></td>
-                    <td>
-                        <input type="text"placeholder="Ophy Boamah" size="85">
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 10px;"><label for="">Email</label></td>
-                    <td> <input type="text" name="" placeholder="ob2@hotmail.com" size="85"><br></td>
-                </tr>
-                <tr>
-                    <td style="width: 10px;"><label for="">Phone</label></td>
-                    <td>
-                        <input type="text"placeholder="+233 20001212" size="85">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+
+            <label for="">Name</label>
+            <input type="text"placeholder="Ophy Boamah" class="input"><br><br>
+           <label for="">Email</label>
+            <input type="text" name="" placeholder="ob2@hotmail.com" class="input" ><br><br>
+           <label for="">Phone</label>
+            <input type="text"placeholder="+233 20001212" class="input" >  <br><br>
     </fieldset>
 
     <fieldset>
         <legend>Personal Information</legend>
-
-        <table>
-            <tbody>
-                <tr>
-                    <td style="width: 10px;"><label for="">Birth Date</label></td>
-                    <td>
-                        <input type="date" width="100px">
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 10px;"><label for="">Gender??</label></td>
-                    <td> <input type="text" name="" width="5"">
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 10px;"><label for="" >Proficiency</label></td>
-                    <td>
-                        <input type="range" size="85" width="85">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+             <label for="">Birth Date</label> 
+             <input type="date" class="input" ><br><br>
+            <label for="">Gender??</label>
+             <input type="text" name="" class="input" ><br><br>
+             <span style="align-items: center;display: flex;">
+                <label for="" style="padding-right:5px;" >Proficiency</label>
+             <input type="range" class="input">
+             </span>
     </fieldset>
 </div>
 </body>
